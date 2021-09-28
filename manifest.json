@@ -2,6 +2,7 @@
     "name":"extention name",
     "version":"0.0.1",
     "manifest_version":2,
+    "description":"This the extension which help's to get the information about Covid-19 Cases",
     "browser_action":{
         "default_popup":"index.html",
         "default_logo":"logo.png"
@@ -9,5 +10,5 @@
     "icons":{
         "128":"logo.png"
     },
-    "permission":["activeTab"]
+    "permissions":["activeTab"]
 }
